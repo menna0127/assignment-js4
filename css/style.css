@@ -1,0 +1,46 @@
+/* login.css page */
+
+body{
+    background-color: #24353f;
+}
+
+*{
+    background-color: #24353f;
+    font-family: sans-serif;
+    text-decoration: none !important;
+}
+
+.login{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.input{
+    background-color: #24353f !important;
+    color: #fff !important;
+    border-radius: 0.25rem;
+    border: solid .0625rem #ffffffba;
+}
+
+.input ::placeholder{
+    color: #ffffffba;
+}
+
+.login-btn{
+    border: solid .0625rem #17a2b8;
+    color: #17a2b8;
+}
+
+.login-btn:hover{
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
